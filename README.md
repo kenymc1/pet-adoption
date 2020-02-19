@@ -1,23 +1,30 @@
 # Pet Adoption
 
+##  Description
 
-## Description
-use this appication to select pizza topping s and get a final cost for your pizza ceation.
+Use this application to find the perfect pet for you
 
 ## Technology Used
-html css javascript
 
+html, css, javascript
 
-## Screenshots
-![]
+## Screenshots
 
+![](img/header.png)
+![](img/story.png)
+![](img/staff.png)
+![](img/Dinos.png)
+![](img/form.png)
+![](img/contact.png)
 
-## How to deploy
-* Clone down this project
+## How to deploy
 
-* At the root of this project run the following command `hs -8080`;
+- Clone down this project
 
-* In your browser navigate to `http://localhost:8080`
+- At the root of this project run the following command `hs -8080`;
+
+- In your browser navigate to `http://localhost:8080`
 
 # Contributors
+
 Kenneth McEastland

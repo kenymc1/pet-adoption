@@ -48,7 +48,8 @@ p {
 /*--------------------------------------------------------------- our story-------------------------------------- */
 #about {
   padding: 6%;
-  margin: 50px auto;
+  margin: 70px auto;
+  background-image: linear-gradient(#fcf3df, #ffffff);
 }
 
 .about h1 {
@@ -182,25 +183,33 @@ blockquote::after {
 .btn-outline-warning {
   margin: 20px;
 }
-.btn-outline-warning {
+
+.btn-outline-primary {
   margin: 20px;
 }
-.btn-outline-warning {
+
+.btn-outline-secondary {
   margin: 20px;
 }
-.btn-outline-warning {
+
+.btn-outline-success {
   margin: 20px;
 }
+
 .card-spot {
   margin-left: 50px;
 }
+
 #adopt {
+  padding-top: 80px;
   padding: 20px;
+  background-image: linear-gradient(#fcf3df, #ffffff);
 }
 
 #adopt h5 {
   padding: 5px;
 }
+
 #adopt h4 {
   padding: 5px;
 }
@@ -208,7 +217,11 @@ blockquote::after {
 .adopt p {
   padding: 0px 120px;
 }
-.card-header {
+
+.card-header {}
+
+.card-body {
+  background-image: linear-gradient(#fcf3df, #ffffff);
 }
 
 .card {
@@ -219,13 +232,32 @@ blockquote::after {
 #adopt img {
   width: 80%;
   border: solid lightgrey 10px;
-  box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, 1),
-    12px 12px 12px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 15px;
 }
 
 .col-md-4 {
   padding-left: 0;
+}
+
+.cat {
+  background-color: rgb(206, 166, 172);
+  color: white;
+}
+
+.dog {
+  background-color: rgb(102, 94, 194);
+  color: white;
+}
+
+.bird {
+  background-color: rgb(113, 188, 206);
+  color: white;
+}
+
+.dino {
+  background-color: rgb(155, 211, 173);
+  color: white;
 }
 
 /*--------------------------------------------------------------- contact-------------------------------------- */
@@ -355,6 +387,7 @@ blockquote::after {
 .foot p b {
   padding-left: 40px;
 }
+
 .foot .btn-primary {
   box-shadow: none !important;
   border: none;
